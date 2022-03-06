@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+   }
+main{
+    background-color: rgb(58, 57, 57);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.maincard{
+    width: 70%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image.png);
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;   
+}
+.card1{
+    width: 260px;
+    height: 270px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px; 
+    margin: 2%;
+    background-color: white   
+}
+.card1 img{
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.title h2{
+    font-size: 14px;
+}
+.title h3{
+    font-size: 10px;
+}
+.title hr{
+    color: aliceblue;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.followers{
+    text-align: center;
+     display: flex;
+    flex-direction: column;
+}
+.followers tr th{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 7px;
+}
+.followers tr td{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 7px;
+    margin: 7px;
+}
